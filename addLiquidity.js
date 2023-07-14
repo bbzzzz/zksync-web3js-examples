@@ -104,7 +104,7 @@ async function addLiquidity(ethAmount, usdcAmount) {
     poolAddress,
     tokenInputs,
     addLiquidityData,
-    1, // Minimum liquidity to receive, you can set this to ensure slippage tolerance
+    0, // Minimum liquidity to receive, you can set this to ensure slippage tolerance
     callback,
     callbackData,
     { gasLimit: 1000000 }
