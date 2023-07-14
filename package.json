@@ -1,0 +1,13 @@
+{
+  "name": "zksync-web3js-examples",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bbzzzz/zksync-web3js-examples.git",
+  "author": "bozhang0504 <zhangbohan1990@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "5",
+    "zksync-web3": "^0.14.3"
+  }
+}
